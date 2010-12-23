@@ -1,0 +1,70 @@
+@import url(compass/.css);
+/* line 3, ../src/screen.sass */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+/* line 13, ../src/screen.sass */
+body {
+  background: #e7e7e7;
+}
+/* line 16, ../src/screen.sass */
+body section#header_wrapper {
+  background: url("../images/rope_top.jpg") repeat-x bottom;
+  width: 100%;
+  height: 125px;
+}
+/* line 21, ../src/screen.sass */
+body section#content_wrapper {
+  width: 100%;
+  height: 470px;
+  background: white url("../images/rope_bottom.jpg") repeat-x bottom;
+}
+/* line 26, ../src/screen.sass */
+body section#content_wrapper section.content {
+  width: 860px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 31, ../src/screen.sass */
+body section#content_wrapper section.content #text {
+  position: absolute;
+  width: 400px;
+  right: 0px;
+  font-family: Helvetica, Arial;
+  color: black;
+}
+/* line 38, ../src/screen.sass */
+body section#content_wrapper section.content #text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+/* line 43, ../src/screen.sass */
+body section#content_wrapper section.content #text p {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 15px;
+}
+/* line 48, ../src/screen.sass */
+body section#content_wrapper section.content img {
+  position: absolute;
+  top: -120px;
+  left: -30px;
+}
+/* line 53, ../src/screen.sass */
+body section#content_wrapper section#first #text {
+  top: 50px;
+}
+/* line 56, ../src/screen.sass */
+body section#footer_wrapper {
+  width: 100%;
+  height: 155px;
+}
